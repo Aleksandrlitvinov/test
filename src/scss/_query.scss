@@ -1,0 +1,136 @@
+@media (max-width: 1680px) {
+    .container {
+      max-width: 1480px;
+    }
+    .collection__item {
+      max-width: 460px;
+  
+      &-img {
+        width: 300px;
+        height: 300px;
+      }
+  
+      .hot-icon {
+        width: 60px;
+        height: 30px;
+      }
+  
+      .green-icon, .blue-icon {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: -20px;
+        top: -20px;
+      }
+  
+      .fire-icon {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 20px;
+        top: 20px;
+      }
+    }
+
+    .about-collection__slider-slide9{
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1445px) {
+    .container {
+      max-width: 1240px;
+      padding: 0 20px;
+    }
+  
+    .collection {
+      justify-content: space-around;
+    }
+  
+    .collection__item {
+      max-width: 512px;
+  
+      &-img {
+        width: 320px;
+        height: 320px;
+      }
+    }
+  
+    .collection__item3 {
+      display: none;
+    }
+  
+    .upcoming__item {
+      padding-right: 70px;
+    }
+  
+    .images-item3 {
+      display: none;
+    }
+  
+    .promo__title {
+      letter-spacing: 0.5em;
+      text-indent: 0.5em;
+    }
+  
+    .footer__down-right {
+      display: block;
+    }
+  
+    .footer__social {
+      margin-left: auto;
+      margin-right: auto;
+      width: 170px;
+      margin-bottom: 15px
+    }
+
+    .about-collection__text{
+      padding-right: 0;
+    }
+
+    .about-collection__description{
+      padding-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .about-collection__slider-slide8{
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .images-item2 {
+      display: none;
+    }
+  
+    .collection__item {
+      max-width: 460px;
+  
+      &-img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  
+    .new-collection__buttons {
+      justify-content: space-between;
+    }
+  
+    .footer__logo-link {
+      display: none;
+    }
+  
+    .footer__down-right {
+      display: flex;
+    }
+  
+    .footer__social {
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+
+    .about-collection__slider-slide6,
+    .about-collection__slider-slide7{
+      display: none;
+    }
+  }

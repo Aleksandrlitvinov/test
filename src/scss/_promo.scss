@@ -1,0 +1,20 @@
+.promo {
+    background-image: url("../images/promo-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    height: 240px;
+    margin-bottom: 80px;
+  
+    &__title {
+      text-align: center;
+      font-weight: 200;
+      font-size: 144px;
+      line-height: 216px;
+      letter-spacing: 150px;
+      color: #FFFFFF;
+      text-indent: 1em;
+    }
+  }

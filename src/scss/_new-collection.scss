@@ -1,0 +1,87 @@
+.new-collection {
+    margin-top: 50px;
+    padding-bottom: 120px;
+    padding-top: 65px;
+    background-image: url("../images/collection-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    &__poster {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    &__title {
+      max-width: 200px;
+      font-family: 'Big Shoulders Display', sans-serif;
+      font-weight: 700;
+      font-size: 96px;
+      line-height: 128%;
+      color: #FFFFFF;
+      margin-bottom: 35px;
+    }
+  
+    &__description {
+      max-width: 380px;
+      font-size: 24px;
+      line-height: 160%;
+      color: #FFFFFF;
+      margin-bottom: 60px;
+    }
+  
+    &__date {
+      font-family: 'Big Shoulders Display', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 96px;
+      line-height: 128%;
+      color: #FFFFFF;
+    }
+  
+    &__price {
+      font-family: 'Big Shoulders Display', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 96px;
+      line-height: 128%;
+      color: #FFFFFF;
+    }
+  
+    &__buttons {
+      display: flex;
+    }
+  
+    .btn-mint {
+      width: 192px;
+      height: 72px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      -webkit-border-radius: 24px;
+      -moz-border-radius: 24px;
+      border-radius: 24px;
+      border: none;
+      background: linear-gradient(#48E8D8, #104858);
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 144%;
+      color: #FFFFFF;
+      margin-right: 24px;
+    }
+  
+    .btn-more {
+      width: 192px;
+      height: 72px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      -webkit-border-radius: 24px;
+      -moz-border-radius: 24px;
+      border-radius: 24px;
+      border: 2px solid #FFFFFF;
+      background: transparent;
+      font-size: 24px;
+      line-height: 144%;
+      color: #FFFFFF;
+    }
+  }

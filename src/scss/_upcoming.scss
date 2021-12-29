@@ -1,0 +1,92 @@
+.upcoming {
+    padding-top: 45px;
+  
+    &__title {
+      font-size: 48px;
+      line-height: 72px;
+      font-weight: 400;
+      margin-bottom: 18px;
+    }
+  
+    &__item {
+      padding: 22px 145px 22px 22px;
+      border: 2px solid #E4E4E4;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+      width: 100%;
+      display: flex;
+      margin-bottom: 8px;
+  
+      &-images {
+        display: flex;
+      }
+  
+      &-social {
+        margin-bottom: 16px;
+        width: 72px;
+        display: flex;
+        justify-content: space-between;
+      }
+  
+      &-text {
+        width: 100%;
+        padding-left: 56px;
+        display: flex;
+        justify-content: space-between;
+      }
+  
+      &-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+  
+        &-crypto {
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 54px;
+        }
+  
+        &-total {
+          font-size: 18px;
+          line-height: 27px;
+          color: #404040;
+        }
+  
+        &-date {
+          font-size: 18px;
+          line-height: 27px;
+          color: #404040;
+        }
+      }
+  
+      &-title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 54px;
+      }
+  
+      &-description {
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 25px;
+      }
+  
+      &-link {
+        font-size: 18px;
+        line-height: 27px;
+        text-decoration-line: underline;
+        color: #0090F8;
+      }
+  
+      &-images-item {
+        width: 192px;
+        height: 192px;
+        background-color: #F0F0F0;
+        margin-right: 8px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+      }
+    }
+  }

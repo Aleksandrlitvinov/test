@@ -1,0 +1,44 @@
+@mixin btnList {
+    width: 128px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #0090F8;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-right: 15px;
+    cursor: pointer;
+  
+    &:hover {
+      background: linear-gradient(to left, #00C0F8, #0090F8);
+    }
+}
+
+@mixin btnPromo {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 64px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 144%;
+    color: #FFFFFF;
+    border: none;
+    background-color: #9850D0;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    margin-right: 24px;
+    cursor: pointer;
+
+    &:hover {
+      background: linear-gradient(#F82090, #9850D0);
+    }
+}
